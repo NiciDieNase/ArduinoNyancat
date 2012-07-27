@@ -82,7 +82,7 @@ void setup() {
     // to calculate the note duration, take one second 
     // divided by the note type.
     //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
-    int noteDuration = 1500/noteDurations[thisNote];
+    int noteDuration = 1000/noteDurations[thisNote];
     tone(8, intro[thisNote],noteDuration);
 
     // to distinguish the notes, set a minimum time between them.
